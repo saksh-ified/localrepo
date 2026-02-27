@@ -1,7 +1,12 @@
-p {
-    color: red;
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
 }
-body {
+.flex-item {
     background-color: aquamarine;
-    font-family: sans-serif;
+    padding: 20px;
+    margin: 10px;
 }
